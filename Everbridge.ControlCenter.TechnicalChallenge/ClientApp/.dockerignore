@@ -1,0 +1,19 @@
+# Exclude node_modules directory
+node_modules
+
+# Exclude build artifacts
+build
+dist
+*.log
+
+# Exclude development files
+.git
+.DS_Store
+.env
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Exclude version control directories
+.svn
+.hg
